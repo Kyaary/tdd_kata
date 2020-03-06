@@ -1,4 +1,3 @@
 {
-  "test_FizzBuzz.py::test_should_return_fizzBuzz_if_is_divisible_by_15": true, 
   "test_FizzBuzz.py::test_should_return_fizz_if_is_divisible_by_5": true
 }
