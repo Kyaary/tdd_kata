@@ -2,7 +2,7 @@
 
 import pytest
 
-def fizzBuzz(x):
+def fizzBuzz(input_to_test):
     return ""
 #if modulo 3==0
 #if modulo 5==0
