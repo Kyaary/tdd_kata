@@ -3,7 +3,7 @@
 import pytest
 
 def fizzBuzz(x):
-    return
+    return ""
 #if modulo 3==0
 #if modulo 5==0
 #if modulo 15==0
