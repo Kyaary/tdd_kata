@@ -1,1 +1,3 @@
-{}
+{
+  "test_LeapYears.py::test_year_is_divisible_by_4_but_not_by_100": true
+}
