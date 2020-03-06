@@ -15,3 +15,6 @@ def test_should_return_fizz_if_is_divisible_by_3():
 
 def test_should_return_buzz_if_is_divisible_by_5():
     assert fizzBuzz(5) == "Buzz"
+
+def test_should_return_fizzBuzz_if_is_divisible_by_15():
+    assert fizzBuzz(15) == "fizzBuzz"
