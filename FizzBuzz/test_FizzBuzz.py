@@ -5,6 +5,8 @@ import pytest
 def fizzBuzz(input_to_test):
     if input_to_test%3 == 0:
         return "Fizz"
+    elif input_to_test%5 == 0:
+        return "Buzz"    
     return ""
 #if modulo 3==0
 #if modulo 5==0
