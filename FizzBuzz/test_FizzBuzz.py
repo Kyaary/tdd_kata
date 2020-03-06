@@ -3,6 +3,8 @@
 import pytest
 
 def fizzBuzz(input_to_test):
+    if input_to_test%3 == 0:
+        return "Fizz"
     return ""
 #if modulo 3==0
 #if modulo 5==0
