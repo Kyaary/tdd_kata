@@ -1,1 +1,3 @@
-{}
+{
+  "test_stringCalculator.py::test_should_return_sum": true
+}
