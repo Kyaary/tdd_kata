@@ -1,16 +1,12 @@
 #!/usr/bin/python3
 
-import pytest
-
 def fizzBuzz(input_to_test):
     if input_to_test%3 == 0:
         return "Fizz"
     elif input_to_test%5 == 0:
         return "Buzz"    
     return ""
-#if modulo 3==0
-#if modulo 5==0
-#if modulo 15==0
+
 def test_return_empty_string_when_is_not_divisible():
     assert fizzBuzz(1) == ""
 
