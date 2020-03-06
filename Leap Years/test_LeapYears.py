@@ -15,3 +15,5 @@ def test_should_year_be_divisible_by_4_but_not_by_100():
 def test_should_year_be_divisible_by_100_but_not_by_400():
     assert isBissextile(1800) == False
 
+def test_should_year_be_divisible_by_4():
+    assert isBissextile(5) == False

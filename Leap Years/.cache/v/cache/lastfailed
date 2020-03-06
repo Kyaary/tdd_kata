@@ -1,1 +1,3 @@
-{}
+{
+  "test_LeapYears.py::test_should_year_be_divisible_by_4": true
+}
