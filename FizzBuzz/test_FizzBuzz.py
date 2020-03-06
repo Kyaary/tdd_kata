@@ -10,3 +10,6 @@ def fizzBuzz(input_to_test):
 def test():
     assert fizzBuzz(1) == ""
 
+def test_should_return_fizz_if_is_divisible_by_3():
+    assert fizzBuzz(3) == "Fizz"
+
