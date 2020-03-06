@@ -15,3 +15,5 @@ def test_return_empty_string_when_is_not_divisible():
 def test_should_return_fizz_if_is_divisible_by_3():
     assert fizzBuzz(3) == "Fizz"
 
+def test_should_return_buzz_if_is_divisible_by_5():
+    assert fizzBuzz(5) == "Buzz"
