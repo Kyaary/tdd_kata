@@ -5,6 +5,8 @@ def isBissextile(year):
         return True
     elif year%100==0 and year%400!=0:
         return False
+    elif year%4!=0:
+        return False
 
 def test_should_year_be_multiple_of_400():
     assert isBissextile(400) == True
